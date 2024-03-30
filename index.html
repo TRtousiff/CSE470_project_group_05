@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Rating & Review System</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="product">
+      <img src="jeans image.jpg" alt="Product Image" width="360px" height="519px" class="center">
+      <h2 class="product-name">Men's Retro Slim Fit Straight Jean</h2>
+      <div class="rating" id="rating">
+        <span class="star" data-value="1">&#9733;</span>
+        <span class="star" data-value="2">&#9733;</span>
+        <span class="star" data-value="3">&#9733;</span>
+        <span class="star" data-value="4">&#9733;</span>
+        <span class="star" data-value="5">&#9733;</span>
+      </div>
+      <p id="rating-value"></p>
+      <textarea id="review" placeholder="Write a review"></textarea>
+      <button onclick="submitReview()">Submit Review</button>
+      <div id="reviews"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
